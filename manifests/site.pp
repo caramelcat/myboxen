@@ -58,6 +58,7 @@ node default {
   include hub
   include nginx
   include ohmyzsh
+  include zsh
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
